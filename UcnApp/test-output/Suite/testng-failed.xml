@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Class(failed)">
+    <classes>
+      <class name="testpackage.TestClassLogin">
+        <methods>
+          <include name="planmodule"/>
+          <include name="toopenapplication"/>
+          <include name="tolaunchbrowser"/>
+          <include name="rechagemodule"/>
+        </methods>
+      </class> <!-- testpackage.TestClassLogin -->
+    </classes>
+  </test> <!-- Class(failed) -->
+</suite> <!-- Failed suite [Suite] -->
