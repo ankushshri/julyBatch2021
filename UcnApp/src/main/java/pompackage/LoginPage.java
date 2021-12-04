@@ -25,6 +25,10 @@ public class LoginPage {
 
 	@FindBy (xpath="//a[@id='lbklogout']")
 	private WebElement logoutbutton;
+	
+	@FindBy (xpath="//a[@id='lbklogout']")
+	private WebElement logoutbutton1;
+	
 
 
 	public LoginPage(WebDriver driver) {
