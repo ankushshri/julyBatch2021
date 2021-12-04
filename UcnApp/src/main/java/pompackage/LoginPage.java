@@ -24,7 +24,7 @@ public class LoginPage {
 	private WebElement loginbutton;	
 
 	@FindBy (xpath="//a[@id='lbklogout']")
-	private WebElement logoutbutton;
+	private WebElement logoutbutton1;
 	
 	
 
