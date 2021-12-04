@@ -27,7 +27,6 @@ public class LoginPage {
 	private WebElement logoutbutton;
 	
 	
-	
 
 
 	public LoginPage(WebDriver driver) {
