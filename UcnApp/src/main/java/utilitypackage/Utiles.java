@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 
 public class Utiles {
- public static void screenShot(WebDriver driver) throws IOException {
+ public static void screenShots(WebDriver driver) throws IOException {
 	 DateTimeFormatter d=  DateTimeFormatter.ofPattern("yyyy-MM-dd a");
 	 LocalDateTime now = LocalDateTime.now();
 	 
